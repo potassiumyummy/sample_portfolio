@@ -1,0 +1,209 @@
+@media (max-width: 1185px){
+    .me img{
+        height: 400px;
+    }
+
+    .navigation ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    p{
+        font-size: 10;
+    }
+
+    h1{
+        font-size: 65px;
+    }
+    
+    h2{
+        font-size: 45px;
+    }
+    
+    h3{
+        font-size: 25px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1075px){
+    .introduction h1{
+        font-size: 35px;
+    }
+    
+    .introduction h2{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1000px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .introduction h1{
+        font-size: 40px;
+    }
+
+    .introduction{
+        text-align: center;
+    }
+
+    .me img{
+        height: 300px;
+    }
+
+    .introduction h1{
+        font-size: 30px;
+    }
+
+    .education{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .skillscontainer ul{
+        font-size: 20px;
+    }
+
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .learning{
+        padding-left: 0;
+    }
+
+    p{
+        font-size: 10;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    h4{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    .learning img{
+        height: 200px;
+    }
+
+    .introduction h1{
+        font-size: 30px;
+    }
+
+    .introduction{
+        text-align: center;
+    }
+
+    .me img{
+        height: 300px;
+    }
+
+    .introduction h2{
+        font-size: 13px;
+    }
+
+    .skillscontainer{
+        width: 100%;
+    }
+}
+
+@media(max-width: 720px){
+    .navigation ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .navigation ul a{
+        font-size: 15px;
+    }
+
+    .socialscontainer img{
+        height: 20px;
+    }
+}
+
+@media(max-width: 590px){
+    .aboutme{
+        padding: 2%;
+        top: 100px;
+    }
+
+    .aboutmecontent{
+        padding: 5%;
+    }
+    .personalinfo{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+    
+    h3{
+        font-size: 17px;
+    }
+    
+    h4{
+        font-size: 16px;
+    }
+
+    .navigation ul a{
+        font-size: 10px;
+    }
+
+    .learning img{
+        height: 170px;
+    }
+
+    .socialscontainer img{
+        height: 14px;
+    }
+
+    .copyrightcontainer{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 495px){
+    .learning img{
+        height: 130px;
+    }
+}
